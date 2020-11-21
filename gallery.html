@@ -1,0 +1,22 @@
+---
+layout: default
+title: Gallery
+---
+<div class="section">
+  <h1 class="title is-5">Latest paintings</h1>
+
+  <div class="grid">
+
+    {% for item in site.data.ppaintings %}
+      <div>
+        <h2 class="title is-6">{{ item.title | capitalize}}</a></h2>
+        <a href="{{item.title | datapage_url: 'paintings'}}">
+          <img src="{{item.image}}" alt="{{ item.title }}" width="200"> <br>
+        </a>
+        {{ item.material | capitalize }} on {{item.support}} <br> {{item.size}} <br>
+        Paris, {{item.year}}
+      </div>
+    
+    {% endfor %}
+  </div>
+</div>

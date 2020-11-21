@@ -1,0 +1,64 @@
+---
+layout: default
+title: {{page.title | capitalize}}
+---
+<div class="container">
+    <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/gallery.html">Gallery</a></li>
+          <li class="is-active"><a href="#" aria-current="page">{{page.title | capitalize}}</a></li>
+        </ul>
+    </nav>
+    <div class="section">
+        <h1 class="title is-5">{{page.title| capitalize}}</h1>
+        <div class="container">        
+            <img src="{{page.image}}" alt="">
+        </div>
+        
+        <br>
+        <br>
+
+        <div class="columns">
+            <div class="column is-four-fifths">
+                <p>Material: {{page.material}} on {{page.support}}</p> 
+                <p>Size: {{page.size}} </p> 
+                <p>Year: {{page.year}} </p> 
+
+            </div>
+
+            <div class="column">
+                <p class="title is-5"> {{page.price}}.- euro</p>
+                <button class="button is-light">Add to cart</button>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <nav class="level">
+            <div class="level-item has-text-centered">
+              <div>
+                <p><i class="fas fa-lock fa-lg"></i></p>
+                <br>
+                <p class="heading">Secured payement</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p class="icon-big"><i class="fas fa-dolly fa-lg"></i></p>
+                <br>
+                <p class="heading">Free shipping in France</p>
+              </div>
+            </div>
+            <div class="level-item has-text-centered">
+              <div>
+                <p><i class="fas fa-undo-alt fa-lg"></i></p>
+                <br>
+                <p class="heading">Free returns within 15 days</p>
+              </div>
+            </div>
+            
+        </nav>
+    </div>
+</div>
