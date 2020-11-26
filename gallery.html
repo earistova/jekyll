@@ -10,7 +10,7 @@ title: Gallery
     {% for item in site.data.paintings %}
       <div>
         <a href="{{item.title | datapage_url: 'paintings'}}">
-          <img src="{{item.image}}" alt="{{ item.title }}" width="400"> <br>
+          <img src="{{item.image | relative_url}}" alt="{{ item.title }}" width="400"> <br>
         </a>
         <h2 class="title is-6">{{ item.title | capitalize}}
           {% if item.label=="sold" %}<span class="tag is-danger is-light">{{item.label}}</span> {% endif %}
