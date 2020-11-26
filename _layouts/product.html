@@ -5,15 +5,15 @@ title: {{page.title | capitalize}}
 <div class="container">
     <nav class="breadcrumb is-centered" aria-label="breadcrumbs">
         <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/gallery.html">Gallery</a></li>
+          <li><a href="{{'/index.html' | relative_url}}">Home</a></li>
+          <li><a href="{{'/gallery.html' | relative_url}}">Gallery</a></li>
           <li class="is-active"><a href="#" aria-current="page">{{page.title | capitalize}}</a></li>
         </ul>
     </nav>
     <div class="section">
         <h1 class="title is-5">{{page.title| capitalize}}</h1>
         <div class="container">        
-            <img src="{{page.image}}" alt="">
+            <img src="{{page.image | relative_url}}" alt="">
         </div>
         
         <br>
