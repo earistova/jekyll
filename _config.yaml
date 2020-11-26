@@ -2,6 +2,7 @@ destination: docs
 
 page_gen-dirs: true
 
+baseurl: "/jekyll"
 page_gen:
   - data: 'paintings'
     template: 'product'
