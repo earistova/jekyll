@@ -28,8 +28,14 @@ title: {{page.title | capitalize}}
             </div>
 
             <div class="column">
+                {% if page.label!="sold" %}
                 <p class="title is-5"> {{page.price}}.- euro</p>
                 <button class="button is-light">Add to cart</button>
+                {% endif %}
+                {% if page.label=="sold" %}
+                <span class="tag is-danger is-light ">{{page.label | capitalize}}</span> 
+                {% endif %}
+
             </div>
         </div>
 
