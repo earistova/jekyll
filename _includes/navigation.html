@@ -1,6 +1,6 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="/index.html">
+    <a class="navbar-item" href="{{'/index.html' | relative_url}}">
       <h1 class="title is-4">Ekaterina Aristova</h1>
     </a>
 
@@ -14,7 +14,7 @@
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
       {% for item in site.data.navigation %}
-        <a class="navbar-item" href="{{ item.link }}" >
+        <a class="navbar-item" href="{{ item.link | relative_url }}" >
           {{ item.name }}
         </a>
       {% endfor %}
