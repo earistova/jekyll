@@ -63,3 +63,29 @@
   price: 2 500
   image: https://static.wixstatic.com/media/9e490e_38631763bf0a42449ae3280624de7250~mv2.jpg/v1/fill/w_366,h_551,al_c,q_85,usm_0.66_1.00_0.01/9e490e_38631763bf0a42449ae3280624de7250~mv2.webp
   # label: new
+
+- title: Muse
+  year: 2016
+  support: paper
+  material: fusain
+  size: 60 x 42 cm
+  price: 1200
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9520648_image.jpg
+  
+- title: danse with me
+  year: 2016
+  support: paper
+  material: fusain, watercolor
+  size: 30 x 21 cm
+  price: 350
+  label: sold
+  image: https://static.wixstatic.com/media/9e490e_8043baa93f7b4fbf8c9b0739bba56bea~mv2_d_2126_1536_s_2.jpg/v1/fill/w_1093,h_790,al_c,q_85,usm_0.66_1.00_0.01/9e490e_8043baa93f7b4fbf8c9b0739bba56bea~mv2_d_2126_1536_s_2.webp
+  
+- title: triangle d'amour
+  year: 2017
+  support: paper
+  material:  watercolor
+  size: 21 x 28 cm
+  label: sold
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/10721278_62f614e8-fa4e-47f1-b074-1e0670f74c38.jpg?v=1600420856
+
