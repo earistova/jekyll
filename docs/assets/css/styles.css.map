@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";",
-		".current {\n    color: green;\n  }\n\n\n.grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));\n  grid-row-gap: 1rem;\n}\n.grid > div {\n  background: #fafafa;\n  padding: 1rem;\n  border-radius: 1rem;\n}\n\n.section {\n  align-content: center;\n}\n\n.column {\n  #a {\n    color: black;\n    text-decoration: none;\n  } \n}\n// body {\n//   margin: 2rem;\n//   font: 12px system-ui;\n// }\n\n  "
+		".current {\n    color: green;\n  }\n\n\n.grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(200px, 400px));\n  grid-row-gap: 1rem;\n}\n.grid > div {\n  background: #fafafa;\n  padding: 1rem;\n  border-radius: 1rem;\n}\n\n.section {\n  align-content: center;\n}\n\n.column {\n  #a {\n    color: black;\n    text-decoration: none;\n  } \n}\n// body {\n//   margin: 2rem;\n//   font: 12px system-ui;\n// }\n\n  "
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb;;AAGH,AAAA,KAAK,CAAC,EACJ,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,qCAAqC,EAC5D,YAAY,EAAE,IAAI,GACnB;;AACD,AAAA,KAAK,GAAG,GAAG,CAAC,EACV,UAAU,EAAE,OAAO,EACnB,OAAO,EAAE,IAAI,EACb,aAAa,EAAE,IAAI,GACpB;;AAED,AAAA,QAAQ,CAAC,EACP,aAAa,EAAE,MAAM,GACtB;;AAED,AACE,OADK,CACL,EAAE,CAAC,EACD,KAAK,EAAE,KAAK,EACZ,eAAe,EAAE,IAAI,GACtB"
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACb;;AAGH,AAAA,KAAK,CAAC,EACJ,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,uCAAuC,EAC9D,YAAY,EAAE,IAAI,GACnB;;AACD,AAAA,KAAK,GAAG,GAAG,CAAC,EACV,UAAU,EAAE,OAAO,EACnB,OAAO,EAAE,IAAI,EACb,aAAa,EAAE,IAAI,GACpB;;AAED,AAAA,QAAQ,CAAC,EACP,aAAa,EAAE,MAAM,GACtB;;AAED,AACE,OADK,CACL,EAAE,CAAC,EACD,KAAK,EAAE,KAAK,EACZ,eAAe,EAAE,IAAI,GACtB"
 }
