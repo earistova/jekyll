@@ -71,16 +71,42 @@
   size: 60 x 42 cm
   price: 1200
   image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9520648_image.jpg
-  
-- title: danse with me
+
+- title: danse with me!
   year: 2016
   support: paper
   material: fusain, watercolor
-  size: 30 x 21 cm
+  size: 36 x 26 cm
   price: 350
   label: sold
   image: https://static.wixstatic.com/media/9e490e_8043baa93f7b4fbf8c9b0739bba56bea~mv2_d_2126_1536_s_2.jpg/v1/fill/w_1093,h_790,al_c,q_85,usm_0.66_1.00_0.01/9e490e_8043baa93f7b4fbf8c9b0739bba56bea~mv2_d_2126_1536_s_2.webp
   
+- title: danse with me! II
+  year: 2016
+  support: paper
+  material: fusain, watercolor
+  size: 24 x 32 cm
+  price: 350
+  label: sold
+  image:  https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/8595844_dsc4129-1.jpg?v=1471622102
+
+- title: danse! (III)
+  year: 2016
+  support: paper
+  material: fusain, watercolor
+  size: 30 x 42 cm
+  label: sold
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9390103_dsc4128-1.jpg
+
+  
+- title: danse!
+  year: 2015
+  support: paper
+  material: fusain, watercolor
+  size: 24 x 32 cm
+  label: sold
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9388825_dsc4131-1.jpg
+
 - title: triangle d'amour
   year: 2017
   support: paper
