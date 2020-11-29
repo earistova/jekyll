@@ -1,8 +1,10 @@
 - name: Home
   link: /
+- name: La Terre et La Mer
+  link: /la-terre-et-la-mer.html
 - name: Gallery
   link: /gallery.html
-- name: Blog
-  link: /blog.html
+- name: News
+  link: /news.html
 - name: About
   link: /about.html

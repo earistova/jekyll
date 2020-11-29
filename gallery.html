@@ -1,26 +1,42 @@
 ---
 layout: default
 title: Gallery
+image: "/assets/images/gallery/Screenshot.png"
+
 ---
-<!-- <div class="section"> -->
-  <h1 class="title is-5">Latest paintings</h1>
+<div class="section">
+  <h1 class="title is-5">Art-gallery 29 Bd. Exelmans Paris 75016</h1>
 
-  <div class="grid">
+    The time when all the galleries stay closed I had a chance to expose 
+    my artworks in the marvellous office space at 29 Bd. Exelmans Paris 75016. 
+    7 artworks are represented where including the flagship '2020' painting.
+    <br> For better experince, take a RDV with Kate, as she is not always 
+    present in the gallery.
+    Use Contacts section in the bottom of the page. <br>
+    Open every Mon-Sat 10-19h. <br>
+    From 24 Nov to 24 Dec 2020. <br>
+    <img width="450px" src="{{page.image | relative_url}}" alt="Street view of the gallery"/>
+    <br><br><br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164.1188487558601!2d2.2638845820918214!3d48.841015971421406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67abccf82592f%3A0x1d3971fd45cfa30c!2s29%20Boulevard%20Exelmans%2C%2075016%20Paris!5e0!3m2!1sen!2sfr!4v1606672438313!5m2!1sen!2sfr" width="600" height="450" frameborder="1em" style="border:1em;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-    {% for item in site.data.paintings %}
-      <div>
-        <a href="{{item.title | datapage_url: 'paintings'}}">
-          <img src="{{item.image | relative_url}}" alt="{{ item.title }}" width=100%> <br>
-        </a>
-        <h2 class="title is-6">{{ item.title | capitalize}}
-          {% if item.label=="sold" %}<span class="tag is-danger is-light">{{item.label}}</span> {% endif %}
-          {% if item.label contains "exposition" %}<span class="tag is-warning is-light">{{item.label}}</span> {% endif %}
-          {% if item.label == "new" %}<span class="tag is-success is-light">{{item.label}}</span> {% endif %}
-        </h2>
-        {{ item.material | capitalize }} on {{item.support}} <br> {{item.size}} <br>
-        Paris, {{item.year}} <bf> 
-      </div>
-    
-    {% endfor %}
+</div>
+  
+<div class="section">
+  <h1 class="title is-5">Virtual gallery in 3D</h1>
+
+    Due to covid restrictions we organized the full exposition in a
+    <a href="https://www.artsteps.com/view/5f764a68a656960a19b3c07f">Virtual gallery online in 3D</a>, 
+    so that everyone on the planet could see it without the need to travel to Paris. <br>
+    When Artsteps website is loaded, simply click on 'Play' button to get automatic tour. 
+    Otherwise you can travel through the gallery space my selecting your position on the floor by mouse 
+    or even click on the artwork, so the camera will be centered at work. <br> 
+    Beware of suboptimal performance on mobile devices. <br>
+    You can watch the recorded tour can be seen on YouTube:
+
+    <div class="section">
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/g4FrMyl4hPQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
+</div>
+  
 <!-- </div> -->

@@ -4,9 +4,9 @@ title: Blog
 ---
 
 <div class="section">
-  <h1 class="title is-5">Latest Posts</h1>
+  <h1 class="title is-5">Latest News</h1>
 
-  <div class="grid">
+  <div class="flexbox">
 
     {% for post in site.posts %}
       <div>
@@ -15,6 +15,8 @@ title: Blog
           <p class="is-italic is-size-7"> {{ post.date | date_to_string }}</p>
           {{ post.excerpt }}
         </a>
+        <br>
+        <br>
       </div>
         
     {% endfor %}
