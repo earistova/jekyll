@@ -8,3 +8,7 @@ page_gen:
     template: 'product'
     name: 'title'
     dir: 'paintings'
+  - data: 'danse'
+    template: 'product'
+    name: 'title'
+    dir: 'danse'

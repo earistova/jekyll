@@ -1,0 +1,27 @@
+---
+layout: default
+title: Gallery
+---
+<!-- <div class="section"> -->
+  <h1 class="title is-5 has-text-centered">Danse with Me!</h1>
+
+  The new 
+  <div class="grid">
+
+    {% for item in site.data.danse %}
+      <div>
+        <a href="{{item.title | datapage_url: 'danse-with-me'}}">
+          <img src="{{item.image | relative_url}}" alt="{{ item.title }}" width=100%> <br>
+        </a>
+        <h2 class="title is-6">{{ item.title | capitalize}}
+          {% if item.label=="sold" %}<span class="tag is-danger is-light">{{item.label}}</span> {% endif %}
+          {% if item.label contains "exposition" %}<span class="tag is-warning is-light">{{item.label}}</span> {% endif %}
+          {% if item.label == "new" %}<span class="tag is-success is-light">{{item.label}}</span> {% endif %}
+        </h2>
+        {{ item.material | capitalize }} on {{item.support}} <br> {{item.size}} <br>
+        Paris, {{item.year}} <bf> 
+      </div>
+    
+    {% endfor %}
+  </div>
+<!-- </div> -->

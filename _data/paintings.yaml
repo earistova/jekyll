@@ -1,122 +1,68 @@
-- collection: 'La Terre et La Mer'
-  description: ''
-  items:
-    - title: '2020'
-      year: 2020
-      support: canvas
-      material: acryllic
-      size: 210 x 140 cm
-      price: 12 000
-      image: https://static.wixstatic.com/media/9e490e_1c7ce1a79fba4b5fbf177d434dc35472~mv2.jpg
-      # label: new
-      
-    - title: rain
-      year: 2020
-      support: canvas
-      material: acryllic
-      size: 60 x 40 cm
-      price: 1 200
-      image: /assets/images/mosaique/rain_full.jpg
-      # label: new
+# - collection: 'La Terre et La Mer'
+#   description: ''
+#   items:
+- title: '2020'
+  year: 2020
+  support: canvas
+  material: acryllic
+  size: 210 x 140 cm
+  price: 12 000
+  image: https://static.wixstatic.com/media/9e490e_1c7ce1a79fba4b5fbf177d434dc35472~mv2.jpg
+  # label: new
+  
+- title: rain
+  year: 2020
+  support: canvas
+  material: acryllic
+  size: 60 x 40 cm
+  price: 1 200
+  image: /assets/images/mosaique/rain_full.jpg
+  # label: new
 
 
-    - title: Route de Crete
-      year: 2020
-      support: canvas
-      material: acryllic
-      size: 60 x 40 cm
-      price: 1 200
-      image: https://static.wixstatic.com/media/9e490e_c2ae2f6a39c747f38f08bf32576894c8~mv2.jpg
-      # label: new
-      
-    - title: deux figues
-      year: 2020
-      support: canvas
-      material: acryllic
-      size: 60 x 40 cm
-      price: 1 200
-      image: /assets/images/mosaique/deux figues crop.jpg
-      # https://static.wixstatic.com/media/9e490e_3252af9b039f458b8bbbce021b0e55df~mv2.jpg/v1/fill/w_830,h_551,al_c,q_85,usm_0.66_1.00_0.01/9e490e_3252af9b039f458b8bbbce021b0e55df~mv2.webp
-      # label: sold
-    # - /assets/images/mosaique/deux figues crop.jpg
-      
-    - title: valensole
-      year: 2020
-      support: canvas
-      material: acryllic
-      size: 60 x 40 cm
-      price: 1 200
-      image: /assets/images/mosaique/Valensole_Interior.jpg
-      # label: exposition Bd. Exelmans Paris 16
-      
-    - title: blossom fields
-      year: 2020
-      support: canvas
-      material: acryllic
-      size: 60 x 40 cm
-      price: 1 200
-      image: https://static.wixstatic.com/media/9e490e_02a2035ac27b4d8483293509d01fe62e~mv2.jpg
-      # label: exposition Bd. Exelmans Paris 16
-      
-    - title: matera
-      year: 2020
-      support: canvas
-      material: acryllic
-      size: 73 x 97 cm
-      price: 2 500
-      image: https://static.wixstatic.com/media/9e490e_38631763bf0a42449ae3280624de7250~mv2.jpg
-      # label: new
-- collection: 'Danse With Me!'
-  description: ''
-  items:
-    - title: Muse
-      year: 2016
-      support: paper
-      material: fusain
-      size: 60 x 42 cm
-      price: 1200
-      image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9520648_2_dsc0706.jpg
-      # image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9520648_image.jpg
-
-    - title: danse with me!
-      year: 2016
-      support: paper
-      material: fusain, watercolor
-      size: 36 x 26 cm
-      price: 350
-      label: sold
-      image: https://static.wixstatic.com/media/9e490e_8043baa93f7b4fbf8c9b0739bba56bea~mv2_d_2126_1536_s_2.jpg
-      
-    - title: danse with me! II
-      year: 2016
-      support: paper
-      material: fusain, watercolor
-      size: 24 x 32 cm
-      price: 350
-      label: sold
-      image:  https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/8595844_dsc4129-1.jpg
-    - title: danse! (III)
-      year: 2016
-      support: paper
-      material: fusain, watercolor
-      size: 30 x 42 cm
-      label: sold
-      image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9390103_dsc4128-1.jpg
-
-      
-    - title: danse!
-      year: 2015
-      support: paper
-      material: fusain, watercolor
-      size: 24 x 32 cm
-      label: sold
-      image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9388825_dsc4131-1.jpg
-
-    - title: triangle d'amour
-      year: 2017
-      support: paper
-      material:  watercolor
-      size: 21 x 28 cm
-      label: sold
-      image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/10721278_62f614e8-fa4e-47f1-b074-1e0670f74c38.jpg
-
+- title: Route de Crete
+  year: 2020
+  support: canvas
+  material: acryllic
+  size: 60 x 40 cm
+  price: 1 200
+  image: https://static.wixstatic.com/media/9e490e_c2ae2f6a39c747f38f08bf32576894c8~mv2.jpg
+  # label: new
+  
+- title: deux figues
+  year: 2020
+  support: canvas
+  material: acryllic
+  size: 60 x 40 cm
+  price: 1 200
+  image: /assets/images/mosaique/deux figues crop.jpg
+  # https://static.wixstatic.com/media/9e490e_3252af9b039f458b8bbbce021b0e55df~mv2.jpg/v1/fill/w_830,h_551,al_c,q_85,usm_0.66_1.00_0.01/9e490e_3252af9b039f458b8bbbce021b0e55df~mv2.webp
+  # label: sold
+# - /assets/images/mosaique/deux figues crop.jpg
+  
+- title: valensole
+  year: 2020
+  support: canvas
+  material: acryllic
+  size: 60 x 40 cm
+  price: 1 200
+  image: /assets/images/mosaique/Valensole_Interior.jpg
+  # label: exposition Bd. Exelmans Paris 16
+  
+- title: blossom fields
+  year: 2020
+  support: canvas
+  material: acryllic
+  size: 60 x 40 cm
+  price: 1 200
+  image: https://static.wixstatic.com/media/9e490e_02a2035ac27b4d8483293509d01fe62e~mv2.jpg
+  # label: exposition Bd. Exelmans Paris 16
+  
+- title: matera
+  year: 2020
+  support: canvas
+  material: acryllic
+  size: 73 x 97 cm
+  price: 2 500
+  image: https://static.wixstatic.com/media/9e490e_38631763bf0a42449ae3280624de7250~mv2.jpg
+  # label: new

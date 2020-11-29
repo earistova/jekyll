@@ -1,0 +1,74 @@
+  
+# - collection: 'Danse With Me!'
+#   description: ''
+#   items:
+- title: Muse
+  year: 2016
+  support: paper
+  material: fusain
+  size: 60 x 42 cm
+  price: 1200
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9520648_2_dsc0706.jpg
+  # image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9520648_image.jpg
+
+- title: Au kimono
+  year: 2015
+  support: paper
+  material: fusain
+  size: 30 x 42 cm
+  price: 350
+  label: sold
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/8758117_dsc4139.jpg?v=1471622275
+
+- title: Dame aux boucles d'oreilles de rubis
+  year: 2015
+  support: paper
+  material: fusain, watercolor
+  size: 36 x 26 cm
+  price: 350
+  label: sold
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/8664463_img-0175-2.jpg?v=1471626293
+
+- title: danse with me!
+  year: 2016
+  support: paper
+  material: fusain, watercolor
+  size: 36 x 26 cm
+  price: 350
+  label: sold
+  image: https://static.wixstatic.com/media/9e490e_8043baa93f7b4fbf8c9b0739bba56bea~mv2_d_2126_1536_s_2.jpg
+  
+- title: danse with me! II
+  year: 2016
+  support: paper
+  material: fusain, watercolor
+  size: 24 x 32 cm
+  price: 350
+  label: sold
+  image:  https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/8595844_dsc4129-1.jpg
+
+  - title: danse! (III)
+  year: 2016
+  support: paper
+  material: fusain, watercolor
+  size: 30 x 42 cm
+  label: sold
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9390103_dsc4128-1.jpg
+
+  
+- title: danse!
+  year: 2015
+  support: paper
+  material: fusain, watercolor
+  size: 24 x 32 cm
+  label: sold
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/9388825_dsc4131-1.jpg
+
+- title: triangle d'amour
+  year: 2017
+  support: paper
+  material:  watercolor
+  size: 21 x 28 cm
+  label: sold
+  image: https://www.artmajeur.com/medias/hd/a/r/aristova/artwork/10721278_62f614e8-fa4e-47f1-b074-1e0670f74c38.jpg
+
