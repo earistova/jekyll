@@ -4,6 +4,8 @@
 
 .grid > div { background: #fafafa; padding: 1rem; border-radius: 1rem; }
 
+.flexbox { background: #fafafa; padding: 1rem; border-radius: 1rem; row-gap: 1rem; }
+
 .section { align-content: center; }
 
 .column #a { color: black; text-decoration: none; }
