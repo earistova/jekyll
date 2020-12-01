@@ -11,16 +11,19 @@ title: Catalog 2020
       <div class="columns">
         <div class="column">
           <a href="{{item.title | datapage_url: 'paintings'}}">
-            <img src="{{item.image | relative_url}}" alt="{{ item.title }}" height=300px> <br>
+            <img src="{{item.image | relative_url}}" alt="{{ item.title }}" height=300px> 
           </a>
         </div>
         <div class="column">
-          <h2 class="title is-6">{{ item.title | capitalize}}
-          </h2> 
-          {{ item.material | capitalize }} on {{item.support}} <br> {{item.size}} <br>
-          Paris, {{item.year}} <br>
-          {{ item.price}}.- euros
-
+          <h2 class="title is-5">{{ item.title | capitalize}}</h2> 
+          <div class="content is-8">
+            {{ item.material | capitalize }} on {{item.support}} <br> 
+            {{item.size}} <br>
+            Paris, {{item.year}} 
+          </div>
+          <div class="title is-6">{{ item.price}}.- euros</div>
+            
+          </div>
         </div> 
       </div>
     

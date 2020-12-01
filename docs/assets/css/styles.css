@@ -4,7 +4,9 @@
 
 .grid > div { background: #fafafa; padding: 1rem; border-radius: 1rem; }
 
-.flexbox { background: #fafafa; padding: 1rem; border-radius: 1rem; row-gap: 1rem; }
+.flexbox { display: flexbox; }
+
+.flexbox > div { background: #fafafa; margin: 20px; padding: 20px; }
 
 .section { align-content: center; }
 

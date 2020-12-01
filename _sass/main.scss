@@ -15,10 +15,13 @@
 }
 
 .flexbox {
+  display: flexbox;
+}
+
+.flexbox > div{
   background: #fafafa;
-  padding: 1rem;
-  border-radius: 1rem;
-  row-gap: 1rem;
+  margin: 20px;
+  padding: 20px;
 }
 
 .section {
