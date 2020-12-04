@@ -23,7 +23,7 @@ title: Gallery
 
     {% for item in site.data.danse %}
       <div>
-        <a href="{{item.title | datapage_url: 'danse-with-me'}}">
+        <a href="{{item.title | datapage_url: 'danse'}}">
           <img src="{{item.image | relative_url}}" alt="{{ item.title }}" width=100%> <br>
         </a>
         <h2 class="title is-6">{{ item.title | capitalize}}
