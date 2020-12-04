@@ -1,3 +1,13 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+// @import "./bulma/sass/utilities/functions.sass";
+// @import "./bulma/sass/utilities/initial-variables.sass";
+  
+// $link: $black !default;
+
+@import "bulma";
+
 .current {
     color: green;
   }
@@ -14,11 +24,11 @@
   border-radius: 1rem;
 }
 
-.flexbox {
+.flex-container {
   display: flexbox;
 }
 
-.flexbox > div{
+.flex-container > div{
   background: #fafafa;
   margin: 20px;
   padding: 20px;
@@ -39,4 +49,15 @@
 //   font: 12px system-ui;
 // }
 
-  
+.post-card {
+  margin: 20px;
+
+
+  .post-title {
+    font-size: 1.6em;
+  }
+
+  .post-categories {
+    margin-bottom: 5px;
+  }
+}

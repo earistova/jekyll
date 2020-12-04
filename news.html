@@ -1,24 +1,50 @@
 ---
 layout: default
 title: Blog
+desc: Latest news
 ---
 
-<div class="section">
-  <h1 class="title is-5">Latest News</h1>
+<!-- <div class="section">
+  <h1 class="title is-5">Latest News</h1> -->
 
-  <div class="flexbox">
+  <section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container is-fluid">
+            <h1 class="title">
+                {{page.title}}
+            </h1>
+            <h2 class="subtitle">
+                {{page.desc}}
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+  
+  <div class="container is-fluid">
 
     {% for post in site.posts %}
-      <div>
-        <a href="{{ post.url | relative_url }}">
-          <h2>{{ post.title }}</h2>
-          <p class="is-italic is-size-7"> {{ post.date | date_to_string }}</p>
-          {{ post.excerpt }}
-        </a>
-        <br>
-        <br>
+      <div class="card post-card">
+        {% if post.image %}
+          <div class="card-image">
+              <figure class="image">
+                  <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
+                      <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" width="100px">
+                  </a>
+              </figure>
+          </div>
+        {% endif %}
+        <div class="card-content">
+          <h3 class="subtitle is-italic"><a href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+            <p class="is-italic is-size-7"> {{ post.date | date_to_string }}</p>
+            {{ post.excerpt }}
+          <br>
+          <br>
+        </div>
       </div>
-        
+      <br>
+    
     {% endfor %}
   </div>
 </div>

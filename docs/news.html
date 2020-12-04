@@ -9,8 +9,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/jekyll/assets/images/favicon-16x16.png">
     <link rel="manifest" href="/jekyll/assets/images/site.webmanifest">
     <link rel="shortcut icon" href="/jekyll/assets/images/favicon.ico">
-    <link rel="stylesheet" href="/jekyll/assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="/jekyll/assets/css/styles.scss">
+    <link rel="stylesheet" href="/jekyll/assets/css/prism.css" />
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZCX516RHWN"></script>
@@ -80,46 +81,75 @@
   </div>
 </nav>
       <div class="section">
-        <div class="section">
-  <h1 class="title is-5">Latest News</h1>
+        <!-- <div class="section">
+  <h1 class="title is-5">Latest News</h1> -->
 
-  <div class="flexbox">
+  <section class="hero is-primary">
+    <div class="hero-body">
+        <div class="container is-fluid">
+            <h1 class="title">
+                Blog
+            </h1>
+            <h2 class="subtitle">
+                Latest news
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+  
+  <div class="container is-fluid">
 
     
-      <div>
-        <a href="/jekyll/2020/11/24/New-art-space-in-Paris.html">
-          <h2>New art space in paris</h2>
-          <p class="is-italic is-size-7"> 24 Nov 2020</p>
-          The time when all the galleries stay closed I had a chance to expose my artworks in the marvellous office space at 29 Bd. Exelmans Paris 75016.
-        </a>
-        <br>
-        <br>
-      </div>
+      <div class="card post-card">
         
+          <div class="card-image">
+              <figure class="image">
+                  <a href="/jekyll/2020/11/24/New-art-space-in-Paris.html" title="New art space in paris">
+                      <img src="/jekyll/assets/images/gallery/Screenshot.png" alt="New art space in paris" width="100px">
+                  </a>
+              </figure>
+          </div>
+        
+        <div class="card-content">
+          <h3 class="subtitle is-italic"><a href="/jekyll/2020/11/24/New-art-space-in-Paris.html" title="New art space in paris">New art space in paris</a></h3>
+            <p class="is-italic is-size-7"> 24 Nov 2020</p>
+            The time when all the galleries stay closed I had a chance to expose my artworks in the marvellous office space at 29 Bd. Exelmans Paris 75016.
+          <br>
+          <br>
+        </div>
+      </div>
+      <br>
     
-      <div>
-        <a href="/jekyll/2020/11/17/Gallery-tour.html">
-          <h2>Gallery Tour</h2>
-          <p class="is-italic is-size-7"> 17 Nov 2020</p>
-          <p>New video is now on YouTube! Have a look at some of my paintings I showcase in my art-room. 7 paintings of 60x40 cm size are the heart of my new collection full of summer vibes and adventure spirit.</p>
-
-        </a>
-        <br>
-        <br>
-      </div>
-        
     
-      <div>
-        <a href="/jekyll/2020/11/15/Exhibition-Opening!-copy.html">
-          <h2>Exhibition Opening! copy</h2>
-          <p class="is-italic is-size-7"> 15 Nov 2020</p>
-          <p>We are living a difficult time. Time of war. Where we are all together.</p>
-
-        </a>
-        <br>
-        <br>
-      </div>
+      <div class="card post-card">
         
+        <div class="card-content">
+          <h3 class="subtitle is-italic"><a href="/jekyll/2020/11/17/Gallery-tour.html" title="Gallery Tour">Gallery Tour</a></h3>
+            <p class="is-italic is-size-7"> 17 Nov 2020</p>
+            <p>New video is now on YouTube! Have a look at some of my paintings I showcase in my art-room. 7 paintings of 60x40 cm size are the heart of my new collection full of summer vibes and adventure spirit.</p>
+
+          <br>
+          <br>
+        </div>
+      </div>
+      <br>
+    
+    
+      <div class="card post-card">
+        
+        <div class="card-content">
+          <h3 class="subtitle is-italic"><a href="/jekyll/2020/11/15/Exhibition-Opening!.html" title="Exhibition Opening!">Exhibition Opening!</a></h3>
+            <p class="is-italic is-size-7"> 15 Nov 2020</p>
+            <p>We are living a difficult time. Time of war. Where we are all together.</p>
+
+          <br>
+          <br>
+        </div>
+      </div>
+      <br>
+    
     
   </div>
 </div>
@@ -133,8 +163,8 @@
     <div class="column">
       <div class="content">CONTACT</div> 
       <p >+33 7 50 31 04 25</p> 
-      <p > <a href="mailto:info@aristova.fr"><i class="fas fa-inbox "></i> info@aristova.fr </a></p> 
-      <p><a is-black href="https://www.instagram.com/katiaaristoff"><i class="fab fa-instagram fa-lg"></i> katiaaristoff</a></p>
+      <p > <a href="mailto:info@aristova.fr"><i class="fas fa-inbox is-link"></i> info@aristova.fr </a></p> 
+      <p><a class="nav-item" href="https://www.instagram.com/katiaaristoff"><i class="fab fa-instagram fa-lg"></i> katiaaristoff</a></p>
       <p><a href="https://www.facebook.com/katia.aristoff"><i class="fab fa-facebook fa-lg"></i> katia.aristoff</a></p>
       <p><a href="https://youtube.com/channel/UCveQqEnKsZdaVrqF17uGvNA"><i class="fab fa-youtube fa-lg"></i> Kate Aristova</a></p>
     </div>
